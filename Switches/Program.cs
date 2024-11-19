@@ -1,15 +1,12 @@
-﻿string option = "2";
+﻿int option = 20;
 
-switch (option.ToLower())
+switch (option)
 {
-	case "1":
+	case 10:
         Console.WriteLine("Alternativ 1 körs");
         break;
-    case "2":
+    case <= 50:
         Console.WriteLine("Alternativ 2 körs");
-        break;
-    case "3":
-        Console.WriteLine("Alternativ 3 körs");
         break;
     default:
         Console.WriteLine("Standard körs");
